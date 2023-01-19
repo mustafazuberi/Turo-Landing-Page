@@ -1,0 +1,48 @@
+.shadowDiv3{
+    width: 42%;
+    height: 25px;
+    background-color: #f2e9ff;
+    margin: -35px auto;
+    
+    text-align: center;
+
+}
+
+
+.shadowHeading3{
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    color: #121214;
+    font-family: 'boldFont';
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+@media screen and (max-width: 690px) {
+    .shadowHeading3{
+        font-size: 40px;
+    }
+    .shadowDiv3{
+        width: 45%;
+
+    }
+}
+@media screen and (max-width: 530px) {
+    .shadowHeading3{
+        font-size: 35px;
+    }
+    .shadowDiv3{
+        width: 65%;
+
+    }
+}   
+@media screen and (max-width: 340px) {
+    .shadowHeading3{
+        font-size: 30px;
+    }
+    .shadowDiv3{
+        width: 70%;
+
+    }
+}   

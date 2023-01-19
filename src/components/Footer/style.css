@@ -1,0 +1,53 @@
+.footer1{
+    padding: 35px;
+    margin-top: 80px;
+    border-top: 1px solid #E7E7E8;
+    border-bottom: 1px solid #E7E7E8;
+    background-color: #f4f4f4;
+    font-size: 13px;
+    color: black;
+}
+
+.footer2{
+    background-color: #f4f4f4 !important;
+
+}
+
+
+
+
+/* Second Footer */
+.row2{
+    width: 100%;
+}
+.socialIcons li{
+    display: inline-block !important;
+}
+.appStore{
+    width: 170px;
+    height: 50px;
+}
+.footerHeading{
+    color: black;
+    font-size: 16px;
+}
+.footer2Li li{
+    font-size: 12px;
+    color: black;
+    margin-top: 4px;
+}
+.footer2Li {
+    margin-top: 24px;
+}
+
+@media only screen and (max-width : 770px){
+    .footer2{
+        padding-top: 165px;
+        padding-bottom: 160px;
+    }
+}
+@media only screen and (max-width : 992px){
+    .footer2{
+        padding-bottom: 180px;
+    }
+}

@@ -1,0 +1,29 @@
+.askedQuestions{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.askedQuestions>div{
+    width: 47%;
+}
+
+.accordion-button{
+    color: black;
+    font-weight: 600;
+}
+.accordion-body{
+    color: rgb(34, 34, 34);
+}
+
+@media screen and (max-width: 740px) {
+
+    .askedQuestions{
+        flex-direction: column;
+    }
+    .askedQuestions>div{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}

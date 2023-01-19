@@ -1,0 +1,28 @@
+.slider1Heading{
+    font-weight: 700;
+    position: relative;
+    color: #121214;
+    font-size: 23px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+}
+
+.titleHeading{
+    color: #121214;
+    font-weight: 700;
+}
+
+.carDiv{
+    margin: 20px auto;
+    
+}
+
+#card{
+    width: 200px !important;
+    height: 215px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.titleHeading{
+    margin-top: -10px;
+}

@@ -1,0 +1,79 @@
+.shadowDiv2{
+    width: 42%;
+    height: 25px;
+    background-color: #f2e9ff;
+    margin: -35px auto;
+    
+    text-align: center;
+
+}
+
+
+.shadowHeading2{
+    font-weight: 700;
+    position: relative;
+    color: #121214;
+    font-family: 'boldFont';
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+@media screen and (max-width: 690px) {
+    .shadowHeading2{
+        font-size: 40px;
+    }
+    .shadowDiv2{
+        width: 45%;
+
+    }
+}
+@media screen and (max-width: 530px) {
+    .shadowHeading2{
+        font-size: 35px;
+    }
+    .shadowDiv2{
+        width: 65%;
+
+    }
+}   
+@media screen and (max-width: 340px) {
+    .shadowHeading2{
+        font-size: 30px;
+    }
+    .shadowDiv2{
+        width: 70%;
+
+    }
+}   
+
+
+.shadow2Para{
+    font-size: 17px;
+    text-align: center;
+    width: 70%;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    color: #646465;
+}
+
+.exploreBtn{
+    background-color: #593cfb;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+.exploreDiv{
+    display: block;
+    text-align: center;
+    
+}
+.exploreBtn:hover{
+    background-color:#470ab4;
+    transition: 0.5s;
+}

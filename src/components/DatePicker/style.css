@@ -1,0 +1,13 @@
+.datePicker{
+    width:180px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    height: 20px;
+    outline: none;
+}
+.timeInp{
+    width: 150px;
+    padding: 10px;
+}

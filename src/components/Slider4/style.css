@@ -1,0 +1,34 @@
+.slider4Heading {
+  font-weight: 700;
+  position: relative;
+  color: #121214;
+  font-size: 23px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+.mainSlider4 {
+  margin-top: 350px;
+}
+@media screen and (max-width:  690px) {
+  .mainSlider4{
+    margin-top: 310px;
+  }
+}
+
+.titleHeading4 {
+  color: #121214;
+  font-weight: 700;
+}
+
+.carDiv {
+  margin: 20px auto;
+}
+
+#card4 {
+  width: 320px !important;
+  /* height: 315px !important; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.titleHeading4 {
+  margin-top: -10px;
+}

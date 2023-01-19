@@ -1,0 +1,92 @@
+.slider5Heading {
+  font-weight: 700;
+  position: relative;
+  color: #121214;
+  font-size: 19px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+.mainSlider5 {
+  margin-top: 70px;
+}
+
+.titleHeading5 {
+  color: #121214;
+  font-weight: 700;
+}
+
+.carDiv {
+  margin: 20px auto;
+}
+
+#card5 {
+  width: 320px !important;
+  /* height: 315px !important; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.titleHeading5 {
+  margin-top: -10px;
+}
+
+
+
+
+
+/* host card */
+.intro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+.introImg img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.introContent h2{
+  color: #121214;
+  font-weight: 700;
+  font-size: 15px;
+}
+.introContent h4{
+  color: #121214;
+  font-size: 12px;
+  line-height: 0.5;
+  font-weight: 400;
+}
+.introContent .tripsAndDate{
+  color: #121214;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+}
+.mainReview{
+  height: 135px;
+}
+.stars span{
+  color: #593cfb;
+  margin-left: 4px;
+  font-size: 12px;
+}
+.stars{
+  margin-left: 15px;
+}
+.mainReview .caption{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.reviwerName,.reviewDate{
+  font-size: 12px;
+
+}
+.reviewedBy{
+  position: absolute;
+  bottom: 0px;
+  margin-left: 20px;
+}
+.caption{
+  font-size: 15px;
+  color: black;
+}

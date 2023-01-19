@@ -1,0 +1,150 @@
+.top {
+  width: 100%;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding-top: 11px;
+}
+.top p {
+  display: inline-block;
+  font-size: 17px;
+  text-decoration: underline;
+  color: #414143;
+  font-weight: 600;
+}
+.top p:hover {
+  color: #717179;
+  cursor: pointer;
+}
+.navbarLogo {
+  width: 15%;
+  height: 70%;
+}
+.bootstrapNavbar {
+  background-color: #fff;
+  padding: 4px;
+}
+.becomeHost {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #414143;
+  color: #414143;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fff;
+}
+.becomeHost:hover {
+  background-color: #ffefef;
+  color: #575758;
+  transition: 0.5s;
+}
+
+.signupTitle {
+  font-size: 20px;
+  color: black;
+}
+.btnClose {
+  cursor: pointer;
+  font-size: 24px;
+}
+.welcomeSignup {
+  font-size: 28px;
+  font-weight: 700;
+  position: relative;
+  color: #121214;
+  font-family: "boldFont";
+  font-size: 39px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.continueSignup {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #414143;
+  color: #414143;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+.continueSignup:hover {
+  background-color: #ffefef;
+  color: #575758;
+  transition: 0.5s;
+  color: black;
+  border-color: #593cfb;
+}
+.loginBtn {
+  border: 1px solid #414143;
+  color: #414143;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.loginBtn:hover {
+  background-color: #ffefef;
+  color: #575758;
+  transition: 0.5s;
+  color: black;
+  border-color: #593cfb;
+
+}
+.loginAlready{
+    width: 70%;
+    margin: 50px  auto;
+    margin-top: 60px;
+}
+.privacy{
+    text-align: center;
+    font-size: 13px;
+    /* line-height: 0; */
+}
+.privacy2{
+    text-align: center;
+    margin-top: -20px;
+}
+.signupAlready{
+    width: 70%;
+    margin: 20px  auto;
+}
+.loginForm input{
+    width: 100%;
+    padding: 4px;
+    border-radius: 0px;
+    border: 1px solid rgb(189, 189, 189);
+}
+.loginForm input:focus{
+    outline: 1px solid #593cfb;
+}
+.emailDiv , .passwordDiv{
+    width: 90%;
+    margin: 0 auto;   
+}
+.loginBtnForm{
+    width: 90%;
+    padding: 8px 5px;
+    background-color: #593cfb;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.loginBtnForm:hover{
+    background-color:#470ab4;
+    transition: 0.5s;
+}
+.or{
+    text-align: center;
+    margin-top: 30px;
+}

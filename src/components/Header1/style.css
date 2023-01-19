@@ -1,0 +1,71 @@
+.mainHeader{
+    width: 100%;
+    height: 65vh;
+    margin-top: -3px;
+    background-image: url('./../../../src/images/headerBgImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 7% 93%;
+}
+.searchIconDiv{
+    background-color: #593cfb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.searchRow{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    border-radius: 45px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.searchInp{
+    height: 18px;
+    outline: none;
+    border: none;
+}
+.where{
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 840px) {
+    .searchRow{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+    .searchRow{
+        min-width: 50%;
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .searchIconDiv{
+        display: none;
+    }
+    .searchBtn{
+        display: block !important;
+        background-color: #593cfb;
+        color: white;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 7px;
+      margin-top: 5px;
+      border-radius: 5px;
+    }
+}
